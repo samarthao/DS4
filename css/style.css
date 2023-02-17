@@ -1,0 +1,129 @@
+body {
+    background-color: #0B0C10;
+    font-family: "Lato";
+    color: #C5C6C7;
+    line-height: 2;
+}
+/* color scheme: #0B0C10, #1F2833, #C5C6C7, #66FCF1, #45A29E*/
+
+header {
+    margin:30px;
+}
+nav{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding-bottom: 20px;
+}
+nav ul li{
+    background: #C5C6C7;
+    border-radius: 50px;
+    list-style-type: none;
+    display: inline-flex;
+    padding: 10px 20px;
+    font-size: 20px;
+}
+nav a{
+    text-decoration: none;
+    color: #0B0C10;
+    /* transition-property: background;
+    transition-duration: 1s;
+    transition-timing-function: linear; */
+}
+
+a:visited {
+    color: #0B0C10;
+}
+
+nav a.current{
+    /* text-decoration: underline wavy;
+    text-underline-offset: .5em;
+    background: #66FCF1;
+    text-transform: uppercase; */
+    color: #66FCF1;
+    text-shadow: 10px 30px 40px #0B0C10;
+}
+.mainstuff {
+    /* text-decoration: none; */
+    left: 50%;
+    position: absolute;
+    transform: translateY(-100%);
+}
+.mainstuff a{
+    /* text-decoration: none; */
+    font-family: "Playfair Display";
+    font-weight: bold;
+}
+
+h1 {
+    font-family: "Playfair Display";
+    text-align: center;
+    font-size: 40px;
+}
+dl dt {
+    font-family: "Playfair Display";
+    text-align: left;
+    font-size: 30px;
+    color: #45A29E;
+}
+main {
+    font-size: 30px;
+}
+div {
+    font-family: "Playfair Display";
+    text-align: left;
+    color: #45A29E;
+}
+div p {
+    color:#C5C6C7;
+    font-size: 20px;
+    font-family: 'Lato';
+}
+div ul {
+    color: #C5C6C7;
+    font-size: 20px;
+}
+img {
+    display: block;
+    width: 50%;
+    padding: 25px;
+    margin-left: auto;
+    margin-right: auto;
+    border: 5px dashed #45A29E;
+    border-radius: 50px;
+}
+img:nth-of-type(even) {
+    border: 5px solid #66FCF1;
+    border-radius: 20px;
+}
+dl dd {
+    font-size: 25px;
+}
+p {
+    background-color: #1F2833;
+    display: block;
+    /* margin-block:20px 0px 0px 0px; */
+    /* display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center; */
+    font-size: 20px;
+    font-family: 'Lato';
+    margin-left: auto;
+    margin-right: auto;
+}
+footer {
+    background-color: #C5C6C7;
+    line-height: 1;
+}
+footer a {
+    text-decoration: none;
+    color: #45A29E;
+    font-family: "Playfair Display";
+    font-weight: bold;
+}
+.thanks, footer p {
+    background-color: #C5C6C7;
+    color: #0B0C10;
+    line-height: 1;
+}
